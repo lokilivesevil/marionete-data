@@ -1,0 +1,37 @@
+grpc:
+  server_host: "localhost"
+  server_port: 19999
+
+microservices:
+  accountInfoService:
+    url: "http://localhost:8899"
+    endpoint: "/marionete/account/"
+  userInfoService:
+    url: "http://localhost:8898"
+    endpoint: "/marionete/user/"
+
+spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enable: false
+
+retry:
+  maxAttempts: 3
+  maxDelay: 1000
+
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+  client:
+    config:
+      accountServiceClient:
+        connectTimeout: 40000
+        readTimeout: 40000
+        loggerLevel: ${log.level.feign:basic}
+      userServiceClient:
+        connectTimeout: 40000
+        readTimeout: 40000
+        loggerLevel: ${log.level.feign:basic}

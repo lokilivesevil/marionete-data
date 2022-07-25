@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.marionete.service.integrations.AccountControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.333 s - in com.marionete.service.integrations.AccountControllerIntegrationTest

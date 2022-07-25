@@ -1,0 +1,15 @@
+# Created at 2022-07-25T16:37:29.420
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2022-07-25T16:37:29.420
+WARNING: Illegal reflective access by com.twitter.jvm.Hotspot (file:/Users/lokesh.jain/.m2/repository/com/twitter/util-jvm_2.12/21.9.0/util-jvm_2.12-21.9.0.jar) to field sun.management.ManagementFactoryHelper.jvm
+
+# Created at 2022-07-25T16:37:29.421
+WARNING: Please consider reporting this to the maintainers of com.twitter.jvm.Hotspot
+
+# Created at 2022-07-25T16:37:29.421
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2022-07-25T16:37:29.421
+WARNING: All illegal access operations will be denied in a future release
+
